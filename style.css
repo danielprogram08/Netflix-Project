@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
 }
 
 .box {
     background-color: black;
     width: 480px;
-    height: 400px;
-    border-radius: 10px;
+    height: 460px;
+    border-radius: 20px;
     
     /*Centralizando a box*/
     position: absolute;
@@ -19,5 +20,66 @@
 }
 
 img {
-    margin-top: 20px;
+    width: 300px;
+    height: 200px;
+}
+
+h1 {
+    background-color: black;
+    color: rgb(231, 36, 36);
+    position:relative;
+    bottom: 10%;
+    text-align: center;
+    margin-top: 5px;
+}
+
+h2 {
+    background-color: black;
+    color: rgb(231, 36, 36);
+    width: 10px;
+    height: 10px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    font-style: italic;
+}
+
+.Entrar {
+    background-color: black;
+}
+
+input {
+    border-radius: 5px;
+    padding: 4px 50px 0 10px ;
+    margin-top: 5px;
+    margin-bottom: 6px;
+}
+
+button {
+    background-color: gray;
+    position: relative;
+    right: 10%;
+    top: 4%;
+    width: 100px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+a {
+    background-color: black;
+    position: relative;
+    top: 12%;
+    right: 10%;
+    left: 10%;
+    text-align: center;
+    color: red;
+}
+
+.background {
+    background-image: url(Netflix-background.png);
+    opacity: 0.8;
+
+    /*reajuste na tela*/
+    width: 1349px;
+    height: 620px;
+    max-width: 100%; 
 }
