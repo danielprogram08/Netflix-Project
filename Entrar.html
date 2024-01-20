@@ -25,14 +25,40 @@
             
             <!--Preenchimento de Dados-->
             <div class="Entrar">
-                <h2 id="email">Email:</h2>    
-                    <input type="text" name="email" placeholder="Email:">
-                <h2 id="senha">Senha:</h2> 
-                    <input type="password" name="senha" placeholder="Senha:">
+                <h2>Email:</h2>    
+                    <input id="email" type="text" name="email" placeholder="Email:">
+                <h2>Senha:</h2> 
+                    <input id="senha" type="password" name="senha" placeholder="Senha:">
             </div>
             
             <a href="Cadastro.html">Cadastre-se</a>
             <button onclick="cadastrar()">Entrar</button>
+
+            <div class="erro1"></div>
+            <div class="erro2"></div>
+            <div class="erro3"></div>
+
+            <script>
+                function cadastrar() {
+                    const email = document.getElementById("email").value;
+                    const senha = document.getElementById("senha").value;
+
+                    console.log("Seu email: " + email);
+                    console.log("Sua senha: " + senha);
+                    
+                    if (email == "" && senha == "") {
+                        alert("Email e senha não inseridos. Tente novamente!");
+                    } else if (email == "") {
+                        alert("Email não inserido. Tente novamente!");
+                    } else if (senha == "") {
+                        alert("Senha não inserida. Tente novamente!");
+                    } else {
+
+                    //Redireciona para a página do Usuário;
+                    window.location.href = 'Login.html';
+                    }
+                }
+            </script>
         </div>
     </section>
 </body>
