@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(27, 27, 27);  
+}
+
+.profiles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: oblique;
+    font-size:40px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+#profile {
+    height: 190px;
+}
+
+#question {
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
