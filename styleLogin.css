@@ -8,27 +8,75 @@ body {
     background-color: rgb(27, 27, 27);  
 }
 
-.profiles {
+.profiles-image {
+    margin-left: 5%; 
+    width: 90%; 
+    height: 190px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+#profile, #profile2, #profile3, #profile4 {
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2%; 
+}
+
 h1 {
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     font-style: oblique;
-    font-size:40px;
-    margin-top: 80px;
-    margin-bottom: 50px;
+    font-size: 4vw; 
+    margin-top: 5vh; 
+    margin-bottom: 3vh; 
 }
 
-#profile {
-    height: 190px;
+.profiles-name {
+    font-size: 2vw; 
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 2vh; 
+    margin-left: 5%; 
+    margin-right: 2%; 
+    padding-right: 1%; 
 }
 
-#question {
-    margin-top: 50px;
-    margin-bottom: 90px;
+#name-profile {
+    margin-right: 2%; 
+    padding-right: 2%; 
+}
+
+#name-profile2 {
+    padding-left: 5%; 
+    margin-right: 3%; 
+}
+
+#name-profile3 {
+    margin-left: 5%; 
+    margin-right: 3%; 
+}
+
+#name-profile4 {
+    margin-left: 4%; 
+    margin-right: 3%; 
+}
+
+@media only screen and (max-width: 768px) {
+    .profiles-image {
+        width: 100%;
+        margin-left: 0; 
+    }
+        
+    .profiles-name {
+        font-size: 2vh;
+        margin-left: 5px; 
+        margin-right: 5px; 
+    }
 }
