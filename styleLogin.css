@@ -68,15 +68,27 @@ h1 {
     margin-right: 3%; 
 }
 
-@media only screen and (max-width: 768px) {
-    .profiles-image {
-        width: 100%;
-        margin-left: 0; 
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 6vw; 
     }
-        
+
     .profiles-name {
-        font-size: 2vh;
-        margin-left: 5px; 
-        margin-right: 5px; 
+        font-size: 6vw; 
+        margin-left: 0; 
+        margin-right: 0; 
+        padding-right: 0; 
+        padding-left: 0; 
+        text-align: center; 
+    }
+
+    .profiles-image {
+        margin-left: 0; 
+        width: 100%; 
+    }
+
+    #profile, #profile2, #profile3, #profile4 {
+        margin-right: 0; 
+        margin-bottom: 2vh; 
     }
 }
