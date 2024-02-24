@@ -17,6 +17,15 @@ body {
     align-items: center;
 }
 
+a {
+    margin-left: 5%; 
+    width: 90%; 
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #profile, #profile2, #profile3, #profile4 {
     height: 190px;
     display: flex;
